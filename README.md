@@ -6,7 +6,7 @@ let gen = Generator::new(|y| {
         for i in 0..100 {
             y2.r#yield(i);
         }
-   }));
+    }));
 
     y.yield_from(0..100);
 });
